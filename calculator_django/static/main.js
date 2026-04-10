@@ -28,7 +28,6 @@ buttons.forEach((button) => {
         const result = eval(currentInput);
 
         addToHistory(currentInput + " = " + result, result);
-        g;
         display.textContent = result;
         currentInput = result.toString();
       } catch {
